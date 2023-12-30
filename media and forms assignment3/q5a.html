@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign In Page</h1>
+    <div >
+    <form action="./action.php"method="post"></form>
+    <label for="fname">First Name: </label>
+    <input type="text"id="fname"name="fname"Placeholder="Sayantani" autocomplete="on" required minlength=3 max=20><br>
+    <label for="lname">Last Name:</label>
+    <input type="email" name="lname" id="lname"Placeholder="Doe" required autocomplete="on" minlength=3 max=20><br>
+    <label for="email">Gmail:</label>
+    <input type="text" name="email" id="email"Placeholder="sayani@gmail.com" required autocomplete="on" minlength="3"><br>
+    <label for="phno">Contact No:</label>
+    <input type="number" name="phno" id="phno" minlength="10" maxlength="13"><br>   
+    <label for="password">Password</label> 
+    <input type="password" name="password" id="password"Placeholder="********" required autocomplete="on" minlength="8"><br>
+    <label for="cnfrmpass">Confirm Password:</label>
+    <input type="password" name="cnfrmpass" id="cnfrmpass"Placeholder="********" required autocomplete="on"> <br>
+    <label for="age">Age:</label>  
+    <input type="number" name="age" id="age" autocomplete="on" placeholder="38" required min=0 max=100><br>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="gender" checked>Male
+    <input type="radio" name="gender" id="gender">Female
+    <input type="radio" name="gender" id="gender">Transgender <br>
+    <label for="t&c"></label>
+    <input type="checkbox" name="t&c" id="t&c">I agree to all Terms & Conditions <br>
+    <button>Register</button>
+    </div>
+</body>
+</html>
